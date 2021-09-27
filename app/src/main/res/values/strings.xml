@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ColdStarMovieApp</string>
+    <string name = "nav_open">Open Nav</string>
+    <string name = "nav_close">close Nav</string>
 </resources>

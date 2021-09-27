@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="home"
+        />
+    <item
+        android:id="@+id/tv"
+        android:icon="@drawable/ic_baseline_live_tv_24"
+        android:title="tv shows"
+        />
+
+    <item
+        android:id="@+id/disney"
+        android:icon="@drawable/ic_baseline_spa_24"
+
+        android:title="disney"
+        />
+
+    <item
+        android:id="@+id/movies"
+        android:icon="@drawable/ic_baseline_movie_24"
+        android:title="movies"
+    />
+
+    <item
+        android:id="@+id/sports"
+        android:icon="@drawable/ic_baseline_sports_cricket_24"
+        android:title="sports"
+        />
+
+</menu>
