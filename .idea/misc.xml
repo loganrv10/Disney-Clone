@@ -3,19 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.3515625" />
-        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.3515625" />
-        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3515625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/nav_header.xml" value="0.33541666666666664" />
-        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.33541666666666664" />
+        <entry key="..\:/Users/SUBHAM/Desktop/Disney-Clone/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SUBHAM/Desktop/Disney-Clone/app/src/main/res/layout/fragment_disney.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SUBHAM/Desktop/Disney-Clone/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SUBHAM/Desktop/Disney-Clone/app/src/main/res/layout/fragment_movies.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SUBHAM/Desktop/Disney-Clone/app/src/main/res/layout/fragment_sports.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SUBHAM/Desktop/Disney-Clone/app/src/main/res/layout/fragment_tv_series.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SUBHAM/Desktop/Disney-Clone/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SUBHAM/Desktop/Disney-Clone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -20,62 +20,53 @@
     app:menu="@menu/bottom_nav_menu" />
 
 
-
-
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
 
         <androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
             android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <View
+            android:id="@+id/emptyView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/Hotstarlogo">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/hamburger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_menu_24" />
+
+        <ImageView
+            android:id="@+id/hotstarlogo"
+            android:layout_width="150dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/hamburger"
+            android:scaleType="fitXY"
+            android:src="@drawable/hotstarhorzlogo" />
+
+        <Button
+            android:id="@+id/subbutton"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="28dp"
+            android:layout_toRightOf="@+id/hotstarlogo"
+            android:backgroundTint="#00AFFF"
+            android:text="subscribe"
+            android:textSize="8dp"
+
 
             />
-
-
-
-
-
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@color/Hotstarlogo">
-
-    </View>
-
-    <ImageView
-        android:id="@+id/hamburger"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/ic_baseline_menu_24" />
-
-    <ImageView
-        android:id="@+id/hotstarlogo"
-        android:layout_width="150dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="6dp"
-        android:layout_toRightOf="@+id/hamburger"
-        android:scaleType="fitXY"
-        android:src="@drawable/hotstarhorzlogo" />
-
-    <Button
-        android:id="@+id/subbutton"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="28dp"
-        android:layout_toRightOf="@+id/hotstarlogo"
-        android:backgroundTint="#00AFFF"
-        android:text="subscribe"
-        android:textSize="8dp"
-
-
-        />
 
         <ImageView
             android:id="@+id/searchbar"
@@ -87,8 +78,17 @@
 
             android:src="@drawable/ic_baseline_search_24" />
 
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/navigationBottom"
+            android:layout_below="@+id/emptyView"
+            android:background="@color/white" />
+
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigationBottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -101,7 +101,6 @@
 
 
     </RelativeLayout>
-
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
